@@ -1,0 +1,26 @@
+.btn {
+  width: 120px;
+  height: 40px;
+  background-color: #4D5B9E;
+  border-radius: 11px;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #4D5B9E;
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+  transform: translateY(3px);
+}
+
+.btn:focus {
+  outline: none;
+}
