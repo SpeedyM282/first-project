@@ -8,11 +8,31 @@
 }
 
 .arrangement-page-heading {
+  margin: 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 31.25px;
+  font-size: 31px;
   line-height: 37px;
   text-align: center;
   color: #293264;
+}
+
+.arrangement-page-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #293264;
+}
+
+.field-wrapper {
+  padding: 0 !important;
+  width: 260px !important;
+  height: 255px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5px !important;
 }
