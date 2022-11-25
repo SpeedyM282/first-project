@@ -1,5 +1,14 @@
 .square-wrapper {
   width: 50px;
   height: 50px;
+  background-color: white;
   border: 1px solid #4D5B9E;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.square-wrapper:hover {
+  border-radius: 15px;
+  transition: 0.3s;
 }
