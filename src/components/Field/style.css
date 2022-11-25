@@ -1,8 +1,0 @@
-.field-wrapper {
-  width: 260px;
-  height: 260px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-  /* border: 1px solid black; */
-}
